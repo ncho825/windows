@@ -3,7 +3,7 @@
   hosts: all
   vars:
     ansible_connection: winrm
-    ansible_winrm_transport: kerberos
+    ansible_winrm_transport: ntlm
     #ansible_user=your_ansible_user@YOUR.REALM.COM
     # Use a credential in AAP for the password, don't put it in inventory
     # ansible_password=YourPassword
