@@ -1,7 +1,6 @@
 ---
 - name: windows update playbook
   hosts: all
-  become: yes
   vars:
   tasks:
     - name: Install all updates and reboot as many times as needed
